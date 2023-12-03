@@ -37,9 +37,9 @@ Clone the repo
 
 Before running, you need to resolve the tensorflow version compatibility issues in [tensor2robot](https://github.com/google-research/tensor2robot), see my answer [contrib_answer](https://github.com/google-research/robotics_transformer/issues/1#issuecomment-1673121690)
 ```bash
-git clone https://github.com/YiyangHuang-work/RT-1
+git clone https://github.com/RLC-Lab/Foundation-Models-for-Robots
 # clone the repo rt-1 used
-cd RT-1
+cd Foundation-Models-for-Robots
 git clone https://github.com/google-research/tensor2robot
 
 # Install protoc and compile the protobufs.
