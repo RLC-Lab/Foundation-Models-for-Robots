@@ -45,11 +45,11 @@ git clone https://github.com/google-research/tensor2robot
 # Install protoc and compile the protobufs.
 pip install protobuf
 cd tensor2robot/proto
-protoc -I=./ --python_out=`pwd` tensor2robot/t2r.proto
+protoc -I=./ --python_out=`pwd` t2r.proto
 
 # Optional: Create a conda env,you can also follow google's instructions for configuration
 cd ../..
-conda env create -f RT-1/rt_environment.yaml
+conda env create -f tf-rt1_environment.yaml
 
 # Run distributed code
 python -m robotics_transformer.distribute_train
